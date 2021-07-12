@@ -1,0 +1,182 @@
+*
+{
+
+	padding: 0;
+	margin: 0;
+	font-family: 'Helvetica';
+}
+
+
+header{
+	background-image: url(pozadina.jpeg);
+	height: 170vh;
+	background-size: cover;
+	background-position: center;
+	
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 25px;
+	
+	
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #54188A;
+	padding: 5px 20 px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #E0314D;
+	color: 	#fff;
+}
+ul li.active a{
+	background-color: #fff;
+	color: 	#E0314D;
+}
+
+.main{
+	max-width: 1500px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.title h1{
+	color: #E0314D;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               font-weight: 100;
+
+}
+.title h2{
+	color: #E0314D;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 100;
+
+
+}
+/*.par1{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 100;
+	 float: left;
+     width: 420px;
+      height: 175px;
+border: 3px solid white;
+text-align: center;
+
+    position: absolute;
+top: 46%;
+}
+.par2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 100;
+	 
+     width: 420px;
+     height: 175px;
+border: 3px solid white;
+    position: absolute;
+top: 46%;
+right: 0px;
+
+text-align: center;
+}*/
+
+.par1{
+	
+	 float: left;
+     width: 420px;
+      height: 175px;
+
+
+    position: absolute;
+top: 30%;
+}
+.par2{
+     width: 420px;
+     height: 175px;
+    position: absolute;
+top: 30%;
+right: 0px;
+
+text-align: center;
+}
+
+.video{
+  position: absolute;
+	top: 67%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+h1{
+color: #fff;
+	font-size: 50px;
+	text-align: left;
+	font-weight: 100;
+}
+
+h2{
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 100;
+	}
+
+h3{
+color: #E0314D;
+	font-size: 40px;
+	text-align: left;
+	font-weight: 100;
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
